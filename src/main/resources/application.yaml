@@ -4,6 +4,8 @@ server:
     max-swallow-size: 100MB
 
 spring:
+  application:
+    name: uploadserver
   servlet:
     multipart:
       max-file-size: 80MB
